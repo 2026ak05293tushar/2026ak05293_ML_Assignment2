@@ -18,7 +18,7 @@ Predict whether a breast mass is **malignant or benign** from 30 numeric measure
 
 ## c. GitHub repository link
 
-[ADD YOUR ACTUAL GITHUB REPOSITORY URL]
+https://github.com/2026ak05293tushar/2026ak05293_ML_Assignment2
 
 Live Streamlit app: [ADD YOUR ACTUAL STREAMLIT COMMUNITY CLOUD URL]
 
