@@ -1,0 +1,155 @@
+{
+  "dataset": "UCI Breast Cancer Wisconsin (Diagnostic)",
+  "uci_url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "data_origin": "scikit-learn packaged copy of the UCI WDBC dataset; original ID omitted",
+  "dataset_sha256": "d1c759cb110155a49fc1e59f67cfc3d74ed15760bff521a451fc64f47af26c05",
+  "test_sha256": "33bcf6a392fce683da9b9108372b175128f32e80ceb9ada7107addb5e8672f34",
+  "instances": 569,
+  "feature_count": 30,
+  "feature_names": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_error",
+    "texture_error",
+    "perimeter_error",
+    "area_error",
+    "smoothness_error",
+    "compactness_error",
+    "concavity_error",
+    "concave_points_error",
+    "symmetry_error",
+    "fractal_dimension_error",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "class_mapping": {
+    "B": 0,
+    "M": 1
+  },
+  "positive_class": "M (malignant), encoded as 1",
+  "seed": 42,
+  "test_fraction": 0.2,
+  "cv_folds": 5,
+  "training_count": 455,
+  "test_count": 114,
+  "training_class_counts": {
+    "B": 285,
+    "M": 170
+  },
+  "test_class_counts": {
+    "B": 72,
+    "M": 42
+  },
+  "model_artifacts": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Gaussian Naive Bayes": "gaussian_nb.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "algorithm_settings": {
+    "Logistic Regression": {
+      "scaled": true,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "Decision Tree": {
+      "scaled": false,
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "random_state": 42,
+        "splitter": "best"
+      }
+    },
+    "KNN": {
+      "scaled": true,
+      "parameters": {
+        "algorithm": "auto",
+        "leaf_size": 30,
+        "metric": "minkowski",
+        "metric_params": null,
+        "n_jobs": null,
+        "n_neighbors": 7,
+        "p": 2,
+        "weights": "distance"
+      }
+    },
+    "Gaussian Naive Bayes": {
+      "scaled": false,
+      "parameters": {
+        "priors": null,
+        "var_smoothing": 1e-09
+      }
+    },
+    "Support Vector Machine": {
+      "scaled": true,
+      "parameters": {
+        "cv": 5,
+        "ensemble": false,
+        "estimator__C": 1.0,
+        "estimator__break_ties": false,
+        "estimator__cache_size": 200,
+        "estimator__class_weight": null,
+        "estimator__coef0": 0.0,
+        "estimator__decision_function_shape": "ovr",
+        "estimator__degree": 3,
+        "estimator__gamma": "scale",
+        "estimator__kernel": "rbf",
+        "estimator__max_iter": -1,
+        "estimator__probability": "deprecated",
+        "estimator__random_state": 42,
+        "estimator__shrinking": true,
+        "estimator__tol": 0.001,
+        "estimator__verbose": false,
+        "estimator": "SVC(random_state=42)",
+        "method": "sigmoid",
+        "n_jobs": null
+      }
+    }
+  },
+  "python": "3.12.3",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "joblib": "1.6.0"
+}

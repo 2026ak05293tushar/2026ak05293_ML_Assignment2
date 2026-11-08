@@ -1,0 +1,3 @@
+# PDF rendering is optional and is not used by the Streamlit app.
+mistune>=3.0,<4.0
+weasyprint>=65,<70

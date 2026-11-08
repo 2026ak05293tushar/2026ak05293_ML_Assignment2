@@ -1,0 +1,8 @@
+# Keep the serialized model's scikit-learn version identical in both environments.
+streamlit>=1.50,<2.0
+scikit-learn==1.9.1
+pandas>=2.2,<3.0
+numpy>=2.0,<3.0
+matplotlib>=3.9,<4.0
+joblib>=1.5,<2.0
+scipy>=1.14,<2.0
